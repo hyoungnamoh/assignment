@@ -2,10 +2,12 @@
 <html>
 
 <head>
-  <style>
-    div {
-      cursor: url(dodo.cur), auto;
-
+  <style type="text/css"> 
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      cursor: url(kingdodo.cur), auto;
+      height: 940px;
     }
     img {
       border: 4px solid #fff;
@@ -18,19 +20,30 @@
     }
   </style>
 </head>
+<script>
+  function login (newWindow) {
+    var windowName = '로그인';
+    var winW = 500;
+    var winH = 350;
+    var newWinW = (screen.width - winW) / 2;
+    var newWinH = (screen.height - winH) / 2;
+    var options = 'width =' + winW + ',height = ' + winH + ', left = ' + newWinW + ',top = ' + newWinH;
 
+    window.open(newWindow, windowName, options);
+  }
+</script>
 <body style="text-align: center;">
   <div 
   
   >
-    <a href="home.html">
+    <a href="index.html">
       <img 
         src="http://img.cuk.edu/university/main2/logo/logo_main_top_0101.png" 
         alt="고려사이버대학교 로고"
         style=""/>
     </a>
     <br />
-    <a href="home.html">
+    <a>
       <button 
       style=
         "background-color: #8b012a; 
@@ -40,6 +53,7 @@
         text-align: center; 
         font-size: 16px;
         cursor: pointer;"
+        onclick="login('login.html')"
        >
         Go to my Homepage
       </button>
