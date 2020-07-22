@@ -1,45 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<script src="js/login.js"></script>
 
-  </head>
-  <script>
-    function movePage () {
-      console.log(window.parent);
-      opener.parent.location.href='home.html';
-      window.close();
-    }
-  </script>
-  <body>
-    <dev style="text-align: center; position: relative; width: 100%">
-      <div style="margin-top: 60px;">
-        <img 
-          src="http://img.cuk.edu/university/main2/logo/logo_main_top_0101.png" 
-          alt="고려사이버대학교 로고"
-          style=""
-        />
-      </div>
-      <div>
-        <input type='text'; placeholder="아이디를 입력해주세요" style="margin-top: 15px; height: 30px;"/><br/>
-        <input type='password'; placeholder="비밀번호를 입력해주세요" style="margin-top: 15px; height: 30px;"/><br/>
-        <button 
-        style=
-          "background-color: #8b012a; 
-          color: #fff; 
-          border-width: 0; 
-          padding: 15px 32px;
-          text-align: center; 
-          font-size: 16px;
-          cursor: pointer;
-          margin-top: 30px;"
-          onclick="movePage()"
-        >
-          로그인
-        </button>
-      </div>
-    </dev>
-    
-  </body>
+<body>
+  <dev class="login">
+    <div class="image">
+      <img src="http://img.cuk.edu/university/main2/logo/logo_main_top_0101.png" alt="고려사이버대학교 로고" />
+    </div>
+    <div>
+      <input type='text' ; placeholder="아이디를 입력해주세요" class="input" /><br />
+      <input type='password' ; placeholder="비밀번호를 입력해주세요" class="input" /><br />
+      <button class="button" onclick="movePage()">
+        로그인
+      </button>
+    </div>
+  </dev>
+
+</body>
 
 </html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.hobby {
+    background-color: #f1ede7;
+}
+
+.landscape, .content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.landscape {
+    min-height: 900px;
+}
+
+.content {
+    min-height: 300px;
+}
+
+.title {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.subTitleRed {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 10px red;
+}
+
+.contentYellow {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 10px yellow;
+}
+
+.subTitleBlue {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 10px blue;
+}
+
+.subTitlePurple {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 10px purple;
+}
+
+.contentText {
+    color: black;
+    font-size: 30px;
+}
+
+/* .inner {
+  min-height: 900px;
+} */
+
+#landscape1 {
+    background: url(https://www.youtube.com/img/desktop/yt_1200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#landscape2 {
+    background: url(../images/해맑도도.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#landscape3 {
+    background: url(https://i.pinimg.com/originals/c4/8f/3d/c48f3de794fc9a829c91f9c93101f182.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#landscape4 {
+    background: url(https://post-phinf.pstatic.net/MjAxODA1MjNfMjIg/MDAxNTI3MDU0MTI0Njk5.0leniJIhs4x6kX4gGubY_fQKoxgDR9w2ELHeNRqrXaYg.Y_e-WkJU10_Qe77AJiWb6-fiqSnt5UjwFz14jVU94Xcg.JPEG/shutterstock_571668544.jpg?type=w1200);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
