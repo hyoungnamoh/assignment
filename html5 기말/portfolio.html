@@ -3,12 +3,16 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+  <script src="./js/portfolio.js"></script>
 </head>
 
 <body class="portfolio">
-  <iframe width="860" height="515" src="https://www.youtube.com/embed/tdnbEl7pEw4?start=59" frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-    class="iframe"></iframe>
+  <iframe width="860" height="515" src='https://www.youtube.com/embed/tdnbEl7pEw4?start=59' frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="iframe"
+    id='iframe'></iframe>
+  <br />
+  <img class='previous' src='./images/back_icon-icons.com_74430.png' onclick="previous('https://www.youtube.com/embed/tdnbEl7pEw4?start=59')"/>
+  <img class='next' src="./images/next_icon-icons.com_74443.png" onclick="next('https://www.youtube.com/embed/hM3H6nONENE?start=50')"/>
 </body>
 
 </html>
